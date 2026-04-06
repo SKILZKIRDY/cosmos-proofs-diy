@@ -74,4 +74,9 @@ This platform encourages:
 
 ## 🔑 Environment Variables
 
-Create a `.env` file:
+Create a `.env` file in the root of your project and add:
+
+```
+VITE_SUPABASE_URL=https://hruizfateygzldvniuyq.supabase.co
+VITE_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+```
