@@ -157,7 +157,7 @@ export default function SubmissionForm({ isOpen, onClose, preselectedExperimentI
             </div>
             <div>
               <h2 className="text-lg font-bold text-gray-900">Submit Your Results</h2>
-              <p className="text-xs text-gray-500">Share your experiment findings with the community</p>
+              <p className="text-xs text-gray-500">Share your findings with the community</p>
             </div>
           </div>
           <button
