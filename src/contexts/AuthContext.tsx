@@ -171,9 +171,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const { data, error } = await supabase.auth.signUp({
       email,
       password,
-      options: {
-        data: { display_name: displayName || email.split('@')[0] }
-      }
+     options: {
+  emailRedirectTo: "https://cosmos-proofs-diy.vercel.app",
+  data: { display_name: displayName || email.split('@')[0] }
+}
     });
     if (error) return { error: error.message };
 
