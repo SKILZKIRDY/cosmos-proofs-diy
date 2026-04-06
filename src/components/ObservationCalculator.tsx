@@ -758,7 +758,7 @@ export default function ObservationCalculator({
             {/* ─── Share Result Button ──────────────────────────────────────── */}
             <div className="px-4 pb-3">
               <button
-                onClick={handleShare}
+                onClick={handleSubmitResult}
                 className={`w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-sm transition-all duration-300 active:scale-[0.98] ${
                   shareState === 'copied'
                     ? 'bg-green-500 text-white shadow-md shadow-green-500/20'
